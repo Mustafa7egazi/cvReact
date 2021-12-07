@@ -1,0 +1,229 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(209, 202, 202);
+}
+h3
+{
+   color: rgb(4, 156, 106);
+}
+.container 
+{
+    display: flex;
+    flex-direction: row;
+}
+.left
+{
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.firstBlock
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.left > h3
+{
+   padding:10px 
+}
+#A,#B,#C,#D
+{
+   margin-left: 20px;
+}
+.javain
+{
+    border: 3px solid gray;
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50px ;
+    margin-bottom: 20px;
+}
+.javaout
+{
+    background-color: aquamarine;
+    width: 80%; 
+    height: 100%;
+    border-radius: 50px ;
+    text-align: center;  
+}
+.Cin
+{
+    border: 3px solid gray;
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50px ;
+    margin-bottom: 20px;
+}
+.Cout
+{
+    background-color: aquamarine;
+    width: 70%; 
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;  
+}
+.Xin
+{
+    border: 3px solid gray;
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50px ;
+    margin-bottom: 20px;
+}
+.Xout
+{
+    background-color: aquamarine;
+    width: 50%; 
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;  
+}
+.Pin
+{
+    border: 3px solid gray;
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50px ;
+    margin-bottom: 20px;
+}
+.Pout
+{
+    background-color: aquamarine;
+    width: 60%; 
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;  
+}
+.Arabin
+{
+    border: 3px solid gray;
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50px ;
+    margin-bottom: 20px;
+}
+.Arabout
+{
+    background-color: aquamarine;
+    width: 100%; 
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;  
+}
+.Engin
+{
+    border: 3px solid gray;
+    height: 20px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50px ;
+    margin-bottom: 20px;
+}
+.Engout
+{
+    background-color: aquamarine;
+    width: 88%; 
+    height: 100%;
+    border-radius: 50px;
+    text-align: center;  
+}
+
+/************************************************/
+.right
+{
+ 
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.upper,.lower
+{
+    
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.upper{margin-bottom: 15px;
+padding-bottom: 15px;}
+.footer
+{   display: flex;
+    align-items: center;
+    background-color: rgb(91, 206, 167);
+    text-align: center;
+    color: white;
+    
+}
+.rightParent
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* mobiles */
+@media (max-width:767px) {
+    .container > .left
+    {
+        max-height:50%;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+ 
+    
+}
+
+/* small screens */
+@media(min-width:768px) and (max-width:991px){
+    .container > .left
+    {
+        max-height:50%;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+    .left > img
+    {
+        width:60%;
+        margin-left: 20%;
+    }
+    
+
+}
+/* 
+//medium screens
+@media (min-width:992px) {
+
+}
+
+// large screens 
+@media (min-width:1200px) {
+    
+}
+*/
+
+
+
